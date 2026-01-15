@@ -1,5 +1,9 @@
 # Binance Trading Bot
 
+🚀 **Live Demo**: [https://binance-trading-bot-omega.vercel.app/](https://binance-trading-bot-omega.vercel.app/)
+
+🎥 **Demo Video**: [https://drive.google.com/file/d/14zPaGwGEJ1grXd4sgspPl_fBjMnYsHhU/view?usp=sharing](https://drive.google.com/file/d/14zPaGwGEJ1grXd4sgspPl_fBjMnYsHhU/view?usp=sharing)
+
 A simplified trading bot for Binance Futures Testnet with a modern web interface.
 
 ## What it does

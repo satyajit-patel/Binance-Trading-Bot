@@ -16,7 +16,7 @@ export default function Home() {
   useEffect(() => {
     const pingBackend = async () => {
       try {
-        const response = await fetch('http://localhost:8000/health')
+        const response = await fetch('https://binance-trading-bot-tz91.onrender.com/health')
         const data = await response.json()
         console.log('Backend ping response:', data)
         setConnectionStatus(response.ok ? 'healthy' : 'error')
@@ -31,7 +31,7 @@ export default function Home() {
 
   const testConnection = async () => {
     try {
-      const response = await fetch('http://localhost:8000/test-connection')
+      const response = await fetch('https://binance-trading-bot-tz91.onrender.com/test-connection')
       const data = await response.json()
       if (response.ok) {
         setConnectionStatus('connected')
@@ -50,7 +50,7 @@ export default function Home() {
     setLoading(true)
     setResult('')
     try {
-      const response = await fetch('http://localhost:8000/place-order', {
+      const response = await fetch('https://binance-trading-bot-tz91.onrender.com/place-order', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
