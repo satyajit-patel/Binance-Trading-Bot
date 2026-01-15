@@ -1,6 +1,6 @@
 # Binance Trading Bot
 
-🚀 **Live Demo**: [https://binance-trading-bot-omega.vercel.app/](https://binance-trading-bot-omega.vercel.app/)
+🚀 **Live Demo**: [https://binance-trading-bot-zeta.vercel.app/](https://binance-trading-bot-zeta.vercel.app/)
 
 🎥 **Demo Video**: [https://drive.google.com/file/d/14zPaGwGEJ1grXd4sgspPl_fBjMnYsHhU/view?usp=sharing](https://drive.google.com/file/d/14zPaGwGEJ1grXd4sgspPl_fBjMnYsHhU/view?usp=sharing)
 
