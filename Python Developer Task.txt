@@ -1,0 +1,63 @@
+﻿Hi,
+
+
+Please do the below task as a first step of the hiring process. Candidates who get selected will be shortlisted for the interview
+
+
+
+
+APPLICATION TASK
+Build a Simplified Trading Bot
+Register and activate a Binance Testnet account 
+Generate API credentials 
+Use the testnet base URL for all API interactions: https://testnet.binancefuture.com
+Use python-binance library or REST calls to place orders 
+Structure your code for reusability and clear input/output handling 
+Log API requests, responses, and errors 
+(Optional) Add support for advanced order types (e.g., Stop-Limit, OCO)
+
+
+from binance import Client
+class BasicBot:
+ def __init__(self, api_key, api_secret, testnet = True):
+ self.client = Client(api_key, api_secret)
+ # Implementation required
+
+
+Requirements 
+Language: Python 
+Place market and limit orders on Binance Futures Testnet (USDT-M)
+Support both buy and sell order sides
+Use official Binance API (REST or WebSocket) 
+Accept and validate user input via command-line interface 
+Output order details and execution status 
+Implement logging and error handling
+
+
+Bonus (Optional)
+Add a third order type (TWAP, Grid, Stop-Limit, or OCO) 
+Build a simple UI interface (CLI enhancement or lightweight frontend)
+
+
+HOW TO APPLY
+
+
+Send your resume and completed assignment (GitHub, portfolio, blog, etc.) along with the 
+log files to saami@bajarangs.com and nagasai@bajarangs.com  & chetan@bajarangs.com CC to sonika@primetrade.ai with the subject:
+
+
+"Junior Python Developer – Crypto Trading Bot"
+
+
+Candidates who advance will be notified within 3 business days. Don't wait – the most 
+qualified candidates apply within the first 72 hours.
+
+
+Ideal for: Recent graduates, bootcamp graduates, undergraduates, and crypto-native analysts 
+who can demonstrate exceptional analytical ability.
+Don't miss this rare opportunity to join a team that's redefining trading intelligence in the 
+Web3 space. While others are analyzing historical data, you'll be shaping the future of crypto 
+trading.
+
+
+First come first serve, so get the task done asap
